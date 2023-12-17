@@ -1482,28 +1482,32 @@ hr {
     }
 
     .experience-left {
-        float: none;
+        margin: 0;
+        padding: 4em 0;
         width: 100%;
-        padding: 1em 0;
+        height: 20vh;
     }
 
-    .experience-left h5 {
-        font-size: 0.9em;
-        margin-top: 0.5em;
+    .experience-left h3 {
+        font-size: 1.8em;
     }
 
-    .experience-right {
-        float: none;
-        width: 100%;
+    .experience-grids h4 {
+        font-size: 1.5em;
+        margin: 0;
+        padding: .5em 0;
+        width: 100%;        
     }
 
-    .experience-grids.experience-grids-btm {
-        margin: 1.5em auto;
+    .experience-grids span {
+        margin: 0;
     }
 
-    .experience-left h3 span {
-        font-size: .7em;
+    .experience-right p {
+        margin: 0 -7.5em;
+        width: 22em;
     }
+
 
     .contact-left,
     .contact-right {
